@@ -1,0 +1,14 @@
+interface:
+  display_name: odoo-fields
+  short_description: 'Odoo natif : fields et maintenance'
+  default_prompt: Utilise $odoo-fields pour résoudre ce besoin Odoo avec le minimum
+    de code spécifique.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

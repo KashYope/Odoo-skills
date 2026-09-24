@@ -1,0 +1,14 @@
+interface:
+  display_name: Odoo Development
+  short_description: Développer Odoo avec le minimum de code spécifique
+  default_prompt: Utilise $odoo-development pour trouver la solution Odoo native avant
+    de coder.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

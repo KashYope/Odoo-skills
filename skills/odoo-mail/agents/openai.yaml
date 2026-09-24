@@ -1,0 +1,14 @@
+interface:
+  display_name: odoo-mail
+  short_description: 'Odoo natif : mail et maintenance'
+  default_prompt: Utilise $odoo-mail pour résoudre ce besoin Odoo avec le minimum
+    de code spécifique.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
